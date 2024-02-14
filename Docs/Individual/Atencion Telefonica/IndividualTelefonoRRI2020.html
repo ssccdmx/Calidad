@@ -1,0 +1,367 @@
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"><html lang="es">
+	<title>Evaluación Individual</title>
+    <link href="..\..\..\CSS\styleindividual.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
+    
+</head>
+  
+<body>
+  <header id="header" class="header-default">
+
+    <div id="toggle-menu">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+
+    <nav class="menu-principal">
+      <ul>
+        <li>
+          <i class="fa fa-user"></i>
+          <a href="..\..\..\Docs\Individual.html" title="Evaluación individual">Evaluación individual</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-users"></i>
+          <a href="..\..\..\Docs\Grupal.html" title="Evaluación grupal">Evaluación grupal</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-medal"></i>
+          <a href="..\..\..\Docs\Promedios.html" title="Mejores promedios">Mejores promedios</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-diagram-project"></i>
+          <a href="..\..\..\Docs\Diagramas.html" title="Diagramas de flujo">Diagramas de Flujo</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-right-to-bracket"></i>
+          <a href="..\..\..\Docs\logout.php">Cerrar Sesión</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="body-contenido">     
+    <div class="container-header">
+      <div class="container1">
+        <a href="#">
+          <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi3ouWmc289s2c3B0hAosCcanMHev7GpqJ0bdliBvFWxcWUJnBnc_29XfxejXOzG11uND6q4TCVXk-nIMHv5jrun4oAp5NG43gXBzCvk0PUApcZCUE2PK2gbE8Ckv5Ka45oipi3IciATVDOGoDbWI0BlOKLzTV0qKrm3WfKLsgIDhl6vXH4ZJ6_GiUQnQ" style="max-width:100%;">
+        </a>
+      </div>
+      <div class="container2">
+        <ul>
+          <a>Bienvenid@ <strong>Nombre del usuario</strong></a>
+          <br>
+          <i class="fecha-text">
+            <script>
+              function makeArray() {
+                for (i = 0; i < makeArray.arguments.length; i++) this[i + 1] = makeArray.arguments[i]
+              }
+              var months = new makeArray('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+              var date = new Date();
+              var day = date.getDate();
+              var month = date.getMonth() + 1;
+              var yy = date.getYear();
+              var year = (yy < 1000) ? yy + 1900 : yy;
+              document.write("Hoy es " + day + " de " + months[month] + " del " + year);
+            </script>
+          </i>
+        </ul>
+      </div>
+    </div>  
+
+    <main>
+      <div class="container">
+        <div class="Title">
+          <h1><i class="fa fa-user"></i>Evaluación Individual</h1>
+        </div>
+
+        <div class="container-header1">
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search2">Módulo
+                <label for="lang"></label>
+                <select name="Módulo" id="Modulo" onchange="location=this.value">
+                  <option style="color:gainsboro;" value="Default">--Atención Telefónica--</option>
+                  <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistencia.html">Asistencia Integral</option>
+                  <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefono.html">Atención Telefónica</option>
+                  <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidad.html">Calidad del Servicio</option>
+                  <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreo.html">Correo electrónico y SUAC</option>
+                  <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitas.html">Gestión de Visitas</option>
+                  <option value="..\..\..\Docs\Individual\Mi Policia\IndividualMiPolicia.html">Mi Policía</option>
+                  <option value="..\..\..\Docs\Individual\WhatsApp\IndividualWhatsApp.html">WhatsApp</option>
+                </select>
+            </form>
+          </div>
+   
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search">Nombre
+                <label for="lang"></label>
+                  <select name="Nombre" id="Nombre" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Reyes Rosas Iván--</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoANVH.html">Aguillón Núñez Víctor Hugo</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoACEY.html">Alba Corona Erika Yazmín</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoALE.html">Álvarez López Enrique</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoASL.html">Álvarez Saldívar Lucía </option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoALC.html">Argumedo Lozano Carlos</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoASDE.html">Arroyo Sauza Diana Elizabeth</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBPR.html">Báez Pérez Ruth</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBCJL.html">Barrios Cruz Jorge Luis</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBHA.html">Bautista Hernández Aurelio</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBPA.html">Bravo Prieto Alejandro</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCMJ.html">Cándido Moreno Juana</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCGB.html">Centeno González Berenice</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCVC.html">Contreras Vilchis Carlos</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCRR.html">Cortes Ramírez Roberto</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCAMY.html">Cruz Alejo Melva Yessenia</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCLE.html">Cruz López Emmanuel</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCOJY.html">Cruz Ortiz Julia Yessenia</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCRII.html">Cruz Sánchez Israel Iván</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCFMR.html">Cuando Frías Margarito Román</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoDTD.html">Delgado Toto Daniel</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoDEA.html">Díaz Espinosa Ángel David</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoELMA.html">Espinosa Linares Mario Antonio</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFHC.html">Flores Hassan Carina</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFLMN.html">Flores Luciano María Nicolasa</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFME.html">Flores Morales Edmundo</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFRY.html">Flores Rocha Yazmín</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFTL.html">Flores Téllez Liliana</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGAJ.html">Galicia Álvarez Jessica</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGHCJ.html">Galindo Hernández Christian Javier</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGJE.html">García Jiménez Erika</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGMJC.html">García Martínez Julio César</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGOCA.html">García Ortiz César Armando</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHFA.html">Hernández Flores Andrés</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHLME.html">Hernández Lucas Mari Elsa</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHLA.html">Hernández Luna Antonio</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHMI.html">Hernández Marín Iván</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHMM.html">Hernández Martínez Mónica</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHMH.html">Hernández Muñoz Héctor</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoIMA.html">Inocencio Marín Alejandro</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoICR.html">Islas Chávez Rocío</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJLJM.html">Jaimes López Jennifer Marisol</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJNJC.html">Jiménez Noriega Juana Carolina</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJRJC.html">Jiménez Rojas Jovani Catarino</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJSMR.html">Jiménez Sánchez María del Rosario</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJSE.html">Jiménez Suárez Emanuel</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLDWD.html">Limón Dávalos Wendi Dayan</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLCKC.html">Lira Cruz Kathya del Carmen</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMMLA.html">Márquez Mayen Laura Adriana</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMLJA.html">Martínez López Jorge Armando</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMLHJ.html">Monroy Lozada Hugo Javier</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMMA.html">Monroy Martínez Arizbe</option>                   
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMVR.html">Mora Velasco Roberto</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoNRPI.html">Nava Robles Paola Isela</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoNSB.html">Nava Solís Bernardo</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPAJA.html">Pacheco Arévalo José Antonio</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPOSC.html">Palacios Ordaz Santa Carmen</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPBE.html">Pérez Bahena Elizabeth</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPPI.html">Pérez Pérez Isela</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoQBO.html">Quezada Bautista Oscar</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoQSR.html">Quintana Sánchez Rubén</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRBJC.html">Ramírez Bautista Julio César</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRGLA.html">Ramírez García Luis Antonio</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRHG.html">Ramírez Hernández Guadalupe</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRJPP.html">Ramírez Jiménez Perla Patricia</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRPJC.html">Ramírez Pérez Juan Carlos</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRVR.html">Ramírez Valdez Rafael</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRTCU.html">Ramos Trejo Carlos Ulises</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI.html">Reyes Rosas Iván</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRHMG.html">Rodríguez Hernández Ma. Guadalupe</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRGA.html">Rojas González Ángel</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRMJ.html">Rosalio Maximiliano Jaide</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoSGM.html">Sánchez González Minadar</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoSMG.html">Sandoval Morales Gabriela</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoSVJO.html">Soriano Valencia José Octavio</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoTHA.html">Torres Hernández Arturo</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoTGM.html">Trejo German Marina</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoUJD.html">Uribe Jiménez Daniel</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoVJA.html">Valencia Jiménez Ángel</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoVGKN.html">Vela Guisado Karina Nelly</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoVGVH.html">Vela Guisado Víctor Hugo</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoVGF.html">Velasco González Francisco</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoZSLG.html">Zugarazo Serrano Luis Gerardo</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoAHM.html">Antonio Hernández Mariano</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoAMO.html">Ávila Martínez Olga</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoAOJC.html">Avilés Ortega Juan Carlos</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBLLH.html">Báez López Laura Haidee</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBSDM.html">Balderas Segura Daisy Mónica</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoBAJE.html">Bocanegra Apolonio Jaime Enrique</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCAR.html">Cabrera Alcalá Rosalba</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCCE.html">Castillo Cruz Edith</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCRAL.html">Collado Rosales Ana Laura</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoCRF.html">Cortes Romero Fernando</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoEMB.html">Escobedo Méndez Brahayan</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFYG.html">Fernández Yépez Guillermo</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFGK.html">Filio García Karina</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFJJE.html">Flores Jurado José Eduardo</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoFGDL.html">Florentino Garrido Diana Laura</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGMEG.html">Garduño Mejía Ernesto Giovanni</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGNO.html">Gerardo Nieves Oyuki</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGFSE.html">González Fuentes Sergio Elías</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGGE.html">González Galicia Ericka</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoGBBE.html">Granillo Beltrán Blanca Estela</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHCA.html">Hernández Cerda Ángel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoHSNC.html">Hurtado Sánchez Nancy Carime</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoIHLD.html">Islas Hernández Luis Daniel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJCL.html">Jiménez Constantino Leslie</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJCPL.html">Jiménez Cruz Paola Lizbet</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJVGC.html">Jiménez Velázquez Guadalupe Citlali</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoJSJ.html">Juárez Salazar Jeimy</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLVJ.html">Lemus Vázquez Jessica</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLMJF.html">López Martínez Josefina Fabiola</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLPKI.html">López Paredes Karen Ivonne</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLPEC.html">López Parrado Edwin Christian</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoLTI.html">López Téllez Irving</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMTMC.html">Matías Téllez María del Carmen</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMCG.html">Martínez Corona Griselda</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMSJC.html">Martínez Sánchez Jesús Camerino</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMSA.html">Martínez Santiago Alicia</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMSJM.html">Martínez Santos Juan Manuel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMBLM.html">Morales Barrón Linda Mariana</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMCRM.html">Moreno Carmona Ricardo Manuel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMGJF.html">Muñoz García José Francisco</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoMGCO.html">Murillo Guzmán César Octavio</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoOZKG.html">Olivares Zamudio Karina Guadalupe</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoOHAM.html">Olivera Herrera Ana María</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoOGI.html">Ortega García Isaac</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoOSMA.html">Ortega Salgado Miguel Ángel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPMLV.html">Pereda Meneses Linda Vanessa</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPCDC.html">Pérez Coello Diana Carolina</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoPEJR.html">Pérez Elías José Roberto</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRVM.html">Ramírez Vázquez Marisol</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoREAD.html">Robles Espinosa Ana Denisse</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRLMJ.html">Rodríguez López María de Jesús</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRMI.html">Romero Martínez Isaac</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoSDS.html">Solís Domínguez Sostenes</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoSOH.html">Soto Hernández Elizabeth</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoSLJ.html">Soria López Joel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoVSF.html">Vásquez Sánchez Fernando</option>
+                  </select>
+            </form>
+          </div>
+
+
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search2">Año
+                <label for="lang"></label>
+                  <select name="Año" id="Año" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--2020--</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2016.html">2016</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2017.html">2017</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2018.html">2018</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2019.html">2019</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2020.html">2020</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2021.html">2021</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2022.html">2022</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2023.html">2023</option>
+                    <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefonoRRI2024.html">2024</option>
+                  </select>
+            </form>
+          </div>
+        </div>  
+    
+        <div id="Level-1">
+          
+            <div class="app">
+              <div class="cardList">
+                <!---button--->
+                <button hidden class="cardList__btn btn btn--left"><div class="icon"><svg><use xlink:href="#arrow-left"></use></svg></button>
+                <!---Endbutton--->
+
+                <div class="cards__wrapper">
+                  <div class="card current--card">
+                    <div class="card__image"><img src="https://ssccdmx.github.io/AlbumDUCS/img/Reyes%20Rosas%20Iv%C3%A1n.png" alt="" /></div>
+                  </div>
+                </div>
+                
+                <!---Loader--->
+                <button hidden class="cardList__btn btn btn--right"><div class="icon"><svg><use xlink:href="#arrow-right"></use></svg></div></button></div><div class="infoList"><div class="info__wrapper"><div class="info current--info"></div><div class="info next--info"></div><div class="info previous--info"></div></div></div><div class="app__bg"><div class="app__bg__image current--image"><img src="#" alt="" /></div><div class="app__bg__image next--image"><img src="#" alt="" /></div><div class="app__bg__image previous--image"><img src="#" alt="" /></div></div>
+            </div>
+                <div class="loading__wrapper"><div class="loader--text">Cargando...</div><div class="loader"><span></span></div></div>
+                <!---EndLoader--->
+          
+                <div class="graficas_wrapper">
+                  <br><br><br>
+                  <div class="datos-coordinador1"><i class="fa-solid fa-child"></i>&nbsp;Nombre del integrante</div>
+                  <div class="datos-coordinador2"></i>Reyes Rosas Iván</div>
+                  <div class="graficas2">
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-user-clock"></i>&nbsp;Turno</div>
+                      <div class="datos-coordinador4"> <mark class="mark-M1">Matutino 1</mark></div>
+                    </div>
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-pen-to-square"></i>&nbsp;Veces evaluadas</div>
+                      <div class="datos-coordinador4">2&nbsp;/&nbsp;12</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="graficas_wrapper">
+                  <div class="graficas2">
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-people-arrows"></i>&nbsp;Promedio general</div>
+                      <div class="datos-coordinador4"></i>5.2&nbsp;&nbsp;<i style="color:#F94A29"class="fa-solid fa-down-long"></i></div>
+                    </div>
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-chart-simple"></i>&nbsp;Productividad Total</div>
+                      <div class="datos-coordinador4"></i>49&nbsp;&nbsp;<i style="color:#F94A29"class="fa-solid fa-down-long"></i></div>
+                    </div>
+                  </div><br><br>
+                </div>
+  
+          
+            <div class="graficas">
+              <div class="title-canva"><i class="fa-solid fa-user-check"></i>&nbsp; Calidad</div>
+                <canvas id="Promedio" width="950" height="250"></canvas>
+                <br><br>
+              <div class="title-canva"><i class="fa-solid fa-chart-simple"></i>&nbsp; Productividad</div>
+                <canvas id="Productividad" width="950" height="250"></canvas>
+                <br><br>
+              <div class="title-canva"><i class="fa-solid fa-medal"></i>&nbsp; Habilidades</div><script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+              <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+              <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+              <div id="chartdiv"></div>
+              
+              <a style="font-size: 1.3em;color:#1D6389;" href="#top"><i style="font-size: 1.3em;color:#1D6389" class="fa fa-circle-up"></i>Subir</a><br><br>
+
+            </div>
+
+          </div>
+        </div>
+
+              
+      </div>
+
+    </main>
+  </div>
+
+
+
+  <script src="..\..\..\JS\promedios.js"></script>
+  <script src="..\..\..\JS\index.js"></script>
+  <script src="..\..\..\JS\Canvas\Individual\Atencion Telefonica\2020\TelefonoRRI2020.js"></script>
+
+</body>
+
+
+
+</html>
