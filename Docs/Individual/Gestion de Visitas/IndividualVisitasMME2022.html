@@ -1,0 +1,295 @@
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"><html lang="es">
+	<title>Evaluación Individual</title>
+    <link href="..\..\..\CSS\styleindividual.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
+    
+</head>
+  
+<body>
+  <header id="header" class="header-default">
+
+    <div id="toggle-menu">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+
+    <nav class="menu-principal">
+      <ul>
+        <li>
+          <i class="fa fa-user"></i>
+          <a href="..\..\..\Docs\Individual.html" title="Evaluación individual">Evaluación individual</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-users"></i>
+          <a href="..\..\..\Docs\Grupal.html" title="Evaluación grupal">Evaluación grupal</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-medal"></i>
+          <a href="..\..\..\Docs\Promedios.html" title="Mejores promedios">Mejores promedios</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-diagram-project"></i>
+          <a href="..\..\..\Docs\Diagramas.html" title="Diagramas de flujo">Diagramas de Flujo</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i class="fa fa-right-to-bracket"></i>
+          <a href="..\..\..\Docs\logout.php">Cerrar Sesión</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="body-contenido">     
+    <div class="container-header">
+      <div class="container1">
+        <a href="#">
+          <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi3ouWmc289s2c3B0hAosCcanMHev7GpqJ0bdliBvFWxcWUJnBnc_29XfxejXOzG11uND6q4TCVXk-nIMHv5jrun4oAp5NG43gXBzCvk0PUApcZCUE2PK2gbE8Ckv5Ka45oipi3IciATVDOGoDbWI0BlOKLzTV0qKrm3WfKLsgIDhl6vXH4ZJ6_GiUQnQ" style="max-width:100%;">
+        </a>
+      </div>
+      <div class="container2">
+        <ul>
+          <a>Bienvenid@ <strong>Nombre del usuario</strong></a>
+          <br>
+          <i class="fecha-text">
+            <script>
+              function makeArray() {
+                for (i = 0; i < makeArray.arguments.length; i++) this[i + 1] = makeArray.arguments[i]
+              }
+              var months = new makeArray('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+              var date = new Date();
+              var day = date.getDate();
+              var month = date.getMonth() + 1;
+              var yy = date.getYear();
+              var year = (yy < 1000) ? yy + 1900 : yy;
+              document.write("Hoy es " + day + " de " + months[month] + " del " + year);
+            </script>
+          </i>
+        </ul>
+      </div>
+    </div>  
+
+    <main>
+      <div class="container">
+        <div class="Title">
+          <h1><i class="fa fa-user"></i>Evaluación Individual</h1>
+        </div>
+
+        <div class="container-header1">
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search2">Módulo
+                <label for="lang"></label>
+                <select name="Módulo" id="Modulo" onchange="location=this.value">
+                  <option style="color:gainsboro;" value="Default">--Gestión de Visitas--</option>
+                  <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistencia.html">Asistencia Integral</option>
+                  <option value="..\..\..\Docs\Individual\Atencion Telefonica\IndividualTelefono.html">Atención Telefónica</option>
+                  <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidad.html">Calidad del Servicio</option>
+                  <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreo.html">Correo electrónico y SUAC</option>
+                  <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitas.html">Gestión de Visitas</option>
+                  <option value="..\..\..\Docs\Individual\Mi Policia\IndividualMiPolicia.html">Mi Policía</option>
+                  <option value="..\..\..\Docs\Individual\WhatsApp\IndividualWhatsApp.html">WhatsApp</option>
+                </select>
+            </form>
+          </div>
+   
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search">Nombre
+                <label for="lang"></label>
+                  <select name="Nombre" id="Nombre" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Martínez Martínez Emanuel--</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasAHSM.html">Ambriz Hernández Sandra Magali</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasAONA.html">Antonio Ordoñez Nasheri Amelia</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasAME.html">Arango Meneses Emily</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasAGCE.html">Ávila Gallegos Christian Erick</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasAREJ.html">Ávila Ramírez Edson Jair</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasARID.html">Ávila Ramírez Irvin Daniel</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasBLLH.html">Báez López Laura Haidee</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCSBL.html">Cordero Sánchez Blanca Luz</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCGMC.html">Correa González María del Carmen</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasDAR.html">Delgadillo Arango Rosalen</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasDGC.html">Delgado García Claudia</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasDHOC.html">Díaz Hernández Olga Cecilia</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasFGDL.html">Florentino Garrido Diana Laura</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGAD.html">García Alva Dafne</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGRE.html">Guerrero Reyes Eduardo</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasHSC.html">Hernández Soto Claudia</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasLMJF.html">López Martínez Josefina Fabiola</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMMAA.html">Martínez Magos Adelina Alejandra</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMED.html">Munguía Espinosa Delia</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasOCV.html">Ortíz Córdova Verónica</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasRADE.html">Rodríguez Araujo David Emiliano</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasRGL.html">Rojas González Lorena</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasSHE.html">Salcedo Hernández Elizabeth</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasVBE.html">Vázquez Bravo Erick</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasVOMTJ.html">Villegas Ortiz María Teresa de Jesús</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasAHM.html">Antonio Hernández Mariano</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasBGHR.html">Barrientos Galicia Hugo Rodolfo</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasBCJL.html">Barrios Cruz Jorge Luis</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasBSMC.html">Beltrán Santos María del Carmen</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCAR.html">Cabrera Alcalá Rosalba</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCPM.html">Castellanos Pedraza Mayte</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCGB.html">Centeno González Berenice</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCEP.html">Chávez Espinosa Paulina</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasCOJY.html">Cruz Ortiz Julia Yessenia</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasDSEE.html">Domínguez Sánchez Edith Eveneth</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasFSTK.html">Figueroa Sánchez Tonancy Karina</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGAJ.html">Galicia Álvarez Jessica</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGCD.html">García Cervantes Diana</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGSPI.html">Garfias Sebastián Perla Ivonne</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGBBB.html">Granillo Beltrán Blanca Estela</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasGGNE.html">González González Nadia Elizabeth</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasHAGA.html">Hernández Arteaga Graciela Angélica</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasHCA.html">Hernández Cerda Ángel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasHLME.html">Hernández Lucas Mari Elsa</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasHNJA.html">Hernández Nava Joan Alberto</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasIHLD.html">Islas Hernández Luis Daniel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasLVJ.html">Lemus Vázquez Jessica</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMME.html">Martínez Martínez Emanuel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMSJC.html">Martínez Sánchez Jesús Camerino</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMGLE.html">Mejía Gálvez Laura Elizabeth</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMMA.html">Monroy Martínez Arizbe</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMVR.html">Mora Velasco Roberto</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMBLM.html">Morales Barrón Linda Mariana</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMCRM.html">Moreno Carmona Ricardo Manuel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasOZKG.html">Olivares Zamudio Karina Guadalupe</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasOLML.html">Ortega López María Luisa</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasPMLV.html">Pereda Meneses Linda Vanessa</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasPRR.html">Pérez Del Rosario Rosenda</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasPEJR.html">Pérez Elías José Roberto</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasPGC.html">Pérez Grimaldo Cuauhtémoc</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasPOOL.html">Pérez Olvera Omar Levi</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasPLY.html">Platero López Yolanda</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasRJPP.html">Ramírez Jiménez Perla Patricia</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasRMMC.html">Ramírez Moreno María del Carmen</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasROJ.html">Resendíz Olvera Jennifer</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasREAD.html">Robles Espinosa Ana Denisse</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasRGML.html">Rocha González María Luisa</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasSND.html">Sánchez Nájera Daniel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasSMG.html">Sandoval Morales Gabriela</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasSLJ.html">Soria López Joel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasUJD.html">Uribe Jiménez Daniel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasVFYG.html">Vázquez Fuentes Yahira Genevieve</option>
+                  </select>
+            </form>
+          </div>
+
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search2">Año
+                <label for="lang"></label>
+                  <select name="Año" id="Año" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--2022--</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMME2019.html">2019</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMME2020.html">2020</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMME2021.html">2021</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMME2022.html">2022</option>
+                    <option value="..\..\..\Docs\Individual\Gestion de Visitas\IndividualVisitasMME2023.html">2023</option>
+                    
+                  </select>
+            </form>
+          </div>
+        </div>  
+    
+        <div id="Level-1">
+          
+            <div class="app">
+              <div class="cardList">
+                <!---button--->
+                <button hidden class="cardList__btn btn btn--left"><div class="icon"><svg><use xlink:href="#arrow-left"></use></svg></button>
+                <!---Endbutton--->
+
+                <div class="cards__wrapper">
+                  <div class="card current--card">
+                    <div class="card__image"><img src="https://ssccdmx.github.io/AlbumDUCS/img/Mart%C3%ADnez%20Mart%C3%ADnez%20Emanuel.png" alt="" /></div>
+                  </div>
+                </div>
+                
+                <!---Loader--->
+                <button hidden class="cardList__btn btn btn--right"><div class="icon"><svg><use xlink:href="#arrow-right"></use></svg></div></button></div><div class="infoList"><div class="info__wrapper"><div class="info current--info"></div><div class="info next--info"></div><div class="info previous--info"></div></div></div><div class="app__bg"><div class="app__bg__image current--image"><img src="#" alt="" /></div><div class="app__bg__image next--image"><img src="#" alt="" /></div><div class="app__bg__image previous--image"><img src="#" alt="" /></div></div>
+            </div>
+                <div class="loading__wrapper"><div class="loader--text">Cargando...</div><div class="loader"><span></span></div></div>
+                <!---EndLoader--->
+          
+                <div class="graficas_wrapper">
+                  <br><br><br>
+                  <div class="datos-coordinador1"><i class="fa-solid fa-child"></i>&nbsp;Nombre del integrante</div>
+                  <div class="datos-coordinador2"></i>Martínez Martínez Emanuel</div>
+                  <div class="graficas2">
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-user-clock"></i>&nbsp;Turno</div>
+                      <div class="datos-coordinador4"> <mark style="background-color: white;">-</mark></div>
+                    </div>
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-pen-to-square"></i>&nbsp;Veces evaluadas</div>
+                      <div class="datos-coordinador4">12&nbsp;/&nbsp;12</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="graficas_wrapper">
+                  <div class="graficas2">
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-people-arrows"></i>&nbsp;Promedio general</div>
+                      <div class="datos-coordinador4"></i>7.5&nbsp;&nbsp;<i style="color:#03C988" class="fa-solid fa-up-long"></i></div>
+                    </div>
+                    <div class="datos">
+                      <div class="datos-coordinador3"><i class="fa-solid fa-chart-simple"></i>&nbsp;Productividad Total</div>
+                      <div class="datos-coordinador4"></i>5,507&nbsp;&nbsp;<i style="color:#03C988"class="fa-solid fa-up-long"></i></div>
+                    </div>
+                  </div><br><br>
+                </div>
+  
+          
+            <div class="graficas">
+              <div class="title-canva"><i class="fa-solid fa-user-check"></i>&nbsp; Calidad</div>
+                <canvas id="Promedio" width="950" height="250"></canvas>
+                <br><br>
+              <div class="title-canva"><i class="fa-solid fa-chart-simple"></i>&nbsp; Productividad</div>
+                <canvas id="Productividad" width="950" height="250"></canvas>
+                <br><br>
+              <div class="title-canva"><i class="fa-solid fa-medal"></i>&nbsp; Habilidades</div><script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+              <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+              <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+              <div id="chartdiv"></div>
+              
+              <a style="font-size: 1.3em;color:#1D6389;" href="#top"><i style="font-size: 1.3em;color:#1D6389" class="fa fa-circle-up"></i>Subir</a><br><br>
+
+            </div>
+
+          </div>
+        </div>
+
+              
+      </div>
+
+    </main>
+  </div>
+
+  <script src="..\..\..\JS\promedios.js"></script>
+  <script src="..\..\..\JS\index.js"></script>
+  <script src="..\..\..\JS\Canvas\Individual\Gestion de Visitas\2022\VisitasMME2022.js"></script>
+
+</body>
+
+
+
+</html>
