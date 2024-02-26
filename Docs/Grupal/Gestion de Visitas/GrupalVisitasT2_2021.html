@@ -1,0 +1,236 @@
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"><html lang="es">
+	<title>Evaluación Grupal</title>
+    <link href="..\..\..\CSS\stylegrupalindex.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
+    
+</head>
+  
+<body>
+  <header id="header" class="header-default">
+
+    <div id="toggle-menu">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+
+    <nav class="menu-principal">
+      <ul>
+        <li>
+          <i style="font-size: 1.3em;" class="fa fa-user"></i>
+          <a href="..\..\Individual.html" title="Evaluación individual">Evaluación individual</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i style="font-size: 1.3em;" class="fa fa-users"></i>
+          <a href="..\..\Grupal.html" title="Evaluación grupal">Evaluación grupal</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i style="font-size: 1.3em;" class="fa fa-medal"></i>
+          <a href="..\..\Promedios.html" title="Mejores promedios">Mejores promedios</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i style="font-size: 1.3em;" class="fa fa-diagram-project"></i>
+          <a href="..\..\Diagramas.html" title="Diagramas de flujo">Diagramas de Flujo</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        <li>
+          <i style="font-size: 1.3em;" class="fa fa-right-to-bracket"></i>
+          <a href="..\..\..\index.html">Cerrar Sesión</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="body-contenido">     
+    <div class="container-header">
+      <div class="container1">
+        <a href="#">
+          <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi3ouWmc289s2c3B0hAosCcanMHev7GpqJ0bdliBvFWxcWUJnBnc_29XfxejXOzG11uND6q4TCVXk-nIMHv5jrun4oAp5NG43gXBzCvk0PUApcZCUE2PK2gbE8Ckv5Ka45oipi3IciATVDOGoDbWI0BlOKLzTV0qKrm3WfKLsgIDhl6vXH4ZJ6_GiUQnQ" style="max-width:100%;">
+        </a>
+      </div>
+      <div class="container2">
+        <ul>
+          <a>Bienvenid@ <strong>Nombre del usuario</strong></a>
+          <br>
+          <i class="fecha-text">
+            <script>
+              function makeArray() {
+                for (i = 0; i < makeArray.arguments.length; i++) this[i + 1] = makeArray.arguments[i]
+              }
+              var months = new makeArray('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+              var date = new Date();
+              var day = date.getDate();
+              var month = date.getMonth() + 1;
+              var yy = date.getYear();
+              var year = (yy < 1000) ? yy + 1900 : yy;
+              document.write("Hoy es " + day + " de " + months[month] + " del " + year);
+            </script>
+          </i>
+        </ul>
+      </div>
+    </div>  
+
+    <main>
+      <div class="container">
+        <div class="Title">
+          <h1><i class="fa fa-users"></i>Evaluación Grupal</h1>
+        </div>
+
+        <div class="container-header1">
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search2">Módulo
+                <label for="lang"></label>
+                  <select name="Módulo" id="Modulo" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Gestión de Visitas--</option>
+                    <option value="..\..\..\Docs\Grupal\Asistencia Integral\GrupalAsistencia.html">Asistencia Integral</option>
+                    <option value="..\..\..\Docs\Grupal\Atencion Telefonica\GrupalTelefono.html">Atención Telefónica</option>
+                    <option value="..\..\..\Docs\Grupal\Calidad del Servicio\GrupalCalidad.html">Calidad del Servicio</option>
+                    <option value="..\..\..\Docs\Grupal\Correo y SUAC\GrupalCorreo.html">Correo electrónico y SUAC</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitas.html">Gestión de Visitas</option>
+                    <option value="..\..\..\Docs\Grupal\Mi Policia\GrupalMiPolicia.html">Mi Policía</option>
+                    <option value="..\..\..\Docs\Grupal\WhatsApp\GrupalWhatsApp.html">WhatsApp</option>
+                  </select>
+            </form>
+          </div>
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search">Turno
+                <label for="lang"></label>
+                  <select name="Nombre" id="Nombre" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Turno 2--</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT1.html">Turno 1</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT2.html">Turno 2</option>
+                  </select>
+            </form>
+          </div>
+
+          <div class="container-search">
+            <form action=#>
+              <p class="label-search2">Año
+                <label for="lang"></label>
+                  <select name="Año" id="Año" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--2021--</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT2_2019.html">2019</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT2_2020.html">2020</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT2_2021.html">2021</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT2_2022.html">2022</option>
+                    <option value="..\..\..\Docs\Grupal\Gestion de Visitas\GrupalVisitasT2_2023.html">2023</option>
+                  </select>
+            </form>
+          </div>
+
+        </div>
+    
+        <div id="Level-1">
+          
+            <div class="app">
+              <div class="cardList">
+                <!---button--->
+                <button hidden class="cardList__btn btn btn--left"><div class="icon"><svg><use xlink:href="#arrow-left"></use></svg></button>
+                <!---Endbutton--->
+
+                <div class="cards__wrapper">
+                  <div class="card current--card">
+                    <div class="card__image"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg391QRLPcHNFFaTJRPi3s2hi2vKJJbbLPM5h6weGchV9pRqv89Zdr1niVv7jZ4z8b22umgxnuMpmmBRfpa6hBolhugay3TGov6CUXQUpQvB_kq6XKHKa6LugTtDu54TfoZKXlBQAgKI3-PMXR3Jiyo0MauKZ9-WuCXT2R6QWh56AYPrA8VryfXYiLk6g/s320/8.png" alt="" /></div>
+                  </div>
+                </div>
+                
+                <!---Loader--->
+                <button hidden class="cardList__btn btn btn--right"><div class="icon"><svg><use xlink:href="#arrow-right"></use></svg></div></button></div><div class="infoList"><div class="info__wrapper"><div class="info current--info"></div><div class="info next--info"></div><div class="info previous--info"></div></div></div><div class="app__bg"><div class="app__bg__image current--image"><img src="#" alt="" /></div><div class="app__bg__image next--image"><img src="#" alt="" /></div><div class="app__bg__image previous--image"><img src="#" alt="" /></div></div>
+            </div>
+                <div class="loading__wrapper"><div class="loader--text">Cargando...</div><div class="loader"><span></span></div></div>
+                <!---EndLoader--->
+
+                <div class="graficas">
+                  <br><br>
+                  <div class="datos-coordinador1" style="background-color: #2BA5E8;"><i class="fa-solid fa-people-arrows"></i></i>&nbsp;Promedio general</div>
+                  <div class="datos-coordinador2"></i>2.3&nbsp;&nbsp;<i style="color:#F94A29"class="fa-solid fa-down-long"></i></div>
+                  <br><br>
+                </div>
+
+                <div class="container-graphics">
+
+                  <div class="chart-wrap" style= width:490px;height:550px > 
+                    <h2 class="TitleGraphic"><i class="fa-solid fa-chart-simple">&nbsp;&nbsp;</i>Productividad</h2>
+                      <div class="grid horizontal">
+
+                        <div class="bar" style="--bar-value:32.6" data-name="Barrios Cruz Jorge Luis" title="976 Folios"></div>
+                        <div class="bar" style="--bar-value:14.2" data-name="Cordero Sánchez Blanca Luz" title="426 Folios"></div>
+                        <div class="bar" style="--bar-value:5.8" data-name="Figueroa Sánchez Tonancy Karina" title="175 Folios"></div>
+                        <div class="bar" style="--bar-value:38.3;" data-name="Galicia Álvarez Jessica" title="1146 Folios"></div>
+                        <div class="bar" style="--bar-value:9.1;" data-name="Hernández Nava Joan Alberto" title="271 Folios"></div>
+                        <div class="bar" style="--bar-value:226.8;" data-name="Martínez Martínez Emanuel" title="6785 Folios"></div>
+                        <div class="bar" style="--bar-value:59.5;" data-name="Morales Barrón Linda Mariana" title="1781 Folios"></div>
+                        <div class="bar" style="--bar-value:8.1;" data-name="Moreno Carmona Ricardo Manuel" title="242 Folios"></div>
+                        <div class="bar" style="--bar-value:177.2;" data-name="Ortega López María Luisa" title="5300 Folios"></div>
+                        <div class="bar" style="--bar-value:300;" data-name="Platero López Yolanda" title="8975 Folios"></div>
+                        <div class="bar" style="--bar-value:66;" data-name="Salcedo Hernández Elizabeth" title="1975 Folios"></div>
+                        <div class="bar" style="--bar-value:234.2;" data-name="Sandoval Morales Gabriela" title="7005 Folios"></div>
+                        <div class="bar" style="--bar-value:0.1;" data-name="Soria López Joel" title="1 Folio"></div>
+                        <div class="bar" style="--bar-value:170.2;" data-name="Uribe Jiménez Daniel" title="5092 Folios"></div>
+                        <div class="bar" style="--bar-value:59.2;" data-name="Vázquez Fuentes Yahira Genevieve" title="1771 Folios"></div>
+                        <div class="bar" style="--bar-value:220.2;" data-name="Villegas Ortiz María Teresa de Jesús" title="6589 Folios"></div>
+                        
+                      </div>
+                  </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                  <div class="chart-wrap" style= width:490px;height:550px >  
+                    <h2 class="TitleGraphic"><i class="fa-solid fa-user-check"></i>&nbsp;&nbsp;</i>Calificaciones</h2>
+                    <div class="grid horizontal">
+                      
+                      <div class="bar" style="--bar-value:25.9;" data-name="Barrios Cruz Jorge Luis" title="Promedio: 0.9"></div>
+                      <div class="bar" style="--bar-value:129.4;" data-name="Cordero Sánchez Blanca Luz" title="Promedio: 4.3"></div>
+                      <div class="bar" style="--bar-value:49.4;" data-name="Figueroa Sánchez Tonancy Karina" title="Promedio: 1.6"></div>
+                      <div class="bar" style="--bar-value:26.8;" data-name="Galicia Álvarez Jessica" title="Promedio: 0.9"></div>
+                      <div class="bar" style="--bar-value:45.7;" data-name="Hernández Nava Joan Alberto" title="Promedio: 1.5"></div>
+                      <div class="bar" style="--bar-value:67.6;" data-name="Martínez Martínez Emanuel" title="Promedio: 2.3"></div>
+                      <div class="bar" style="--bar-value:61.1;" data-name="Morales Barrón Linda Mariana" title="Promedio: 2.0"></div>
+                      <div class="bar" style="--bar-value:84.1;" data-name="Moreno Carmona Ricardo Manuel" title="Promedio: 2.8"></div>
+                      <div class="bar" style="--bar-value:106.4;" data-name="Ortega López María Luisa" title="Promedio: 3.5"></div>
+                      <div class="bar" style="--bar-value:77.1;" data-name="Platero López Yolanda" title="Promedio: 2.6"></div>
+                      <div class="bar" style="--bar-value:121.6;" data-name="Salcedo Hernández Elizabeth" title="Promedio: 4.1"></div>
+                      <div class="bar" style="--bar-value:54.3;" data-name="Sandoval Morales Gabriela" title="Promedio: 1.8"></div>
+                      <div class="bar" style="--bar-value:26.7;" data-name="Soria López Joel" title="Promedio: 0.9"></div>
+                      <div class="bar" style="--bar-value:115.2;" data-name="Uribe Jiménez Daniel" title="Promedio: 3.8"></div>
+                      <div class="bar" style="--bar-value:27.2;" data-name="Vázquez Fuentes Yahira Genevieve" title="Promedio: 0.9"></div>
+                      <div class="bar" style="--bar-value:96.0;" data-name="Villegas Ortiz María Teresa de Jesús" title="Promedio: 3.2"></div>
+                      
+                    </div><br><br><br><br>
+                  </div>
+
+        
+                </div>
+
+          </div>
+        </div>
+      
+      </div>
+    </main>
+  </div>
+
+  <script src="..\..\..\JS\promedios.js"></script>
+  <script src="..\..\..\JS\index.js"></script>
+  <script src="..\..\..\JS\Canvas\Individual\Asistencia Integral\AsistenciaEmpty.js"></script>
+
+</body>
+
+
+
+</html>
