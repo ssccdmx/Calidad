@@ -1,0 +1,41 @@
+var data1 = {
+  labels: ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],
+  datasets: [
+    {
+      label: "Final",
+      fillColor: "rgba(151,187,205,0.5)",
+      strokeColor: "rgba(151,187,205,0.8)",
+      highlightFill: "rgba(151,187,205,0.75)",
+      highlightStroke: "rgba(151,187,205,1)",
+
+      data: [5.6,5.9,6.5,7.8,7.7,8.3,8.9,8.7,7.8,8.7,8.5,8.7]
+
+
+
+    }
+  ]
+};
+
+var ctx = document.getElementById("Promedio").getContext("2d");
+var myBarChart = new Chart(ctx).Bar(data1);
+
+var data2 = {
+  labels: ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],
+  datasets: [
+    {
+      label: "Promedio",
+      fillColor: "rgba(220,220,220,0.5)",
+      strokeColor: "rgba(220,220,220,0.8)",
+      highlightFill: "rgba(220,220,220,0.75)",
+      highlightStroke: "rgba(220,220,220,1)",
+
+      data: [146,143,149,242,264,193,284,258,213,25,274,268]
+
+
+
+    }
+  ]
+};
+
+var ctx = document.getElementById("Productividad").getContext("2d");
+var myBarChart = new Chart(ctx).Bar(data2);
