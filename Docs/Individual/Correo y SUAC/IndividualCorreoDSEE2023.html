@@ -10,6 +10,11 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
     
+    <style>
+      #ultimo + div{
+        visibility: hidden;
+      }
+    </style>
 </head>
   
 <body>
@@ -24,32 +29,32 @@
     <nav class="menu-principal">
       <ul>
         <li>
-          <i class="fa fa-user"></i>
+          <i style="font-size: 1.3em;" class="fa fa-user"></i>
           <a href="..\..\..\Docs\Individual.html" title="Evaluación individual">Evaluación individual</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-users"></i>
+          <i style="font-size: 1.3em;" class="fa fa-users"></i>
           <a href="..\..\..\Docs\Grupal.html" title="Evaluación grupal">Evaluación grupal</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-medal"></i>
+          <i style="font-size: 1.3em;" class="fa fa-medal"></i>
           <a href="..\..\..\Docs\Promedios.html" title="Mejores promedios">Mejores promedios</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-diagram-project"></i>
+          <i style="font-size: 1.3em;" class="fa fa-diagram-project"></i>
           <a href="..\..\..\Docs\Diagramas.html" title="Diagramas de flujo">Diagramas de Flujo</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-right-to-bracket"></i>
-          <a href="..\..\..\Docs\logout.php">Cerrar Sesión</a>
+          <i style="font-size: 1.3em;" class="fa fa-right-to-bracket"></i>
+          <a href="..\..\..\index.html">Cerrar Sesión</a>
           <br>
           <div class="hr"></div>
         </li>
@@ -119,6 +124,7 @@
                     <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoAMO.html">Ávila Martínez Olga</option><option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoCCE.html">Castillo Cruz Edith</option>
                     <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoCRF.html">Cortes Romero Fernando</option>
                     <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoFGK.html">Filio García Karina</option>
+                    <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoMGCO.html">Murillo Guzmán César Octavio</option>
                     <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoMGJF.html">Muñoz García José Francisco</option>
                     <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoOSMA.html">Ortega Salgado Miguel Ángel</option>
                     <option value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoRVM.html">Ramírez Vázquez Marisol</option>
@@ -134,7 +140,6 @@
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoJLJM.html">Jaimes López Jennifer Marisol</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoJCPL.html">Jiménez Cruz Paola Lizbet</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoJVGC.html">Jiménez Velázquez Guadalupe Citlali</option>
-                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoMSA.html">Martínez Santiago Alicia</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Correo y SUAC\IndividualCorreoRMJ.html">Rosalio Maximiliano Jaide</option>
                   </select>
             </form>
@@ -175,11 +180,11 @@
                 <div class="graficas_wrapper">
                   <br><br><br>
                   <div class="datos-coordinador1"><i class="fa-solid fa-child"></i>&nbsp;Nombre del integrante</div>
-                  <div class="datos-coordinador2"></i>Cortes Romero Fernando</div>
+                  <div class="datos-coordinador2"></i>Domínguez Sánchez Edith Eveneth</div>
                   <div class="graficas2">
                     <div class="datos">
                       <div class="datos-coordinador3"><i class="fa-solid fa-user-clock"></i>&nbsp;Turno</div>
-                      <div class="datos-coordinador4"> <mark class="mark-m1">Matutino 1</mark></div>
+                      <div class="datos-coordinador4"> <mark style="background-color: white;">-</mark></div>
                     </div>
                     <div class="datos">
                       <div class="datos-coordinador3"><i class="fa-solid fa-pen-to-square"></i>&nbsp;Veces evaluadas</div>
@@ -230,7 +235,9 @@
   <script src="..\..\..\JS\promedios.js"></script>
   <script src="..\..\..\JS\index.js"></script>
   <script src="..\..\..\JS\Canvas\Individual\Correo y SUAC\2023\CorreoDSEE2023.js"></script>
+  <script src="..\..\..\JS\Canvas\Polar\Correo y SUAC\2023\CorreoDSEE2023.js"></script>
 
+  <div id="ultimo"></div>
 </body>
 
 
