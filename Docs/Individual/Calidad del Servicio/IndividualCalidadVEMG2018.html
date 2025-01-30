@@ -10,6 +10,11 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
     
+    <style>
+      #ultimo + div{
+        visibility: hidden;
+      }
+    </style>
 </head>
   
 <body>
@@ -24,32 +29,32 @@
     <nav class="menu-principal">
       <ul>
         <li>
-          <i class="fa fa-user"></i>
+          <i style="font-size: 1.3em;" class="fa fa-user"></i>
           <a href="..\..\..\Docs\Individual.html" title="Evaluación individual">Evaluación individual</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-users"></i>
+          <i style="font-size: 1.3em;" class="fa fa-users"></i>
           <a href="..\..\..\Docs\Grupal.html" title="Evaluación grupal">Evaluación grupal</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-medal"></i>
+          <i style="font-size: 1.3em;" class="fa fa-medal"></i>
           <a href="..\..\..\Docs\Promedios.html" title="Mejores promedios">Mejores promedios</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-diagram-project"></i>
+          <i style="font-size: 1.3em;" class="fa fa-diagram-project"></i>
           <a href="..\..\..\Docs\Diagramas.html" title="Diagramas de flujo">Diagramas de Flujo</a>
           <br>
           <div class="hr"></div>
         </li>
         <li>
-          <i class="fa fa-right-to-bracket"></i>
-          <a href="..\..\..\Docs\logout.php">Cerrar Sesión</a>
+          <i style="font-size: 1.3em;" class="fa fa-right-to-bracket"></i>
+          <a href="..\..\..\index.html">Cerrar Sesión</a>
           <br>
           <div class="hr"></div>
         </li>
@@ -117,38 +122,39 @@
                   <select name="Nombre" id="Nombre" onchange="location=this.value">
                     <option style="color:gainsboro;" value="Default">--Vertíz Estrada María Graciela--</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadBGR.html">Burgos González Rafael</option>
+                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadCAES.html">Castillo Anaya Elvia Sonia</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadCNI.html">Cigarroa Nicoletti Ivy</option>
+                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadEEE.html">Espinosa Estrada Elisa</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadGGME.html">García García María Eugenia</option>
-                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadJSJ.html">Juárez Salazar Jeimy</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadLMMR.html">Lara Morfín María del Rayo</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadLGMS.html">López Gómez Maricruz Susana</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadMLJ.html">Macías León Jeannete</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadMCMS.html">Martínez del Campo Marín Silvia</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadMEDJ.html">Máximo Espinosa Diana Jacqueline</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadMCLM.html">Mendoza Correa Lidia Miriam</option>
-                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadMGCO.html">Murillo Guzmán César Octavio</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadORDV.html">Olivares Rebollar Diana Vanessa</option>
-                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadQGI.html">Quinto García Ivonne</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadQRMM.html">Quiroz Ramírez María Magdalena</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadRVLL.html">Ramírez Veytia Lorena Leticia</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadRSLG.html">Rico Suárez Laura Guillermina</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadRFMA.html">Rocha Fuentes María Angélica</option>
+                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadRPCM.html">Rodríguez Pérez Carmen Marlene</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadSCN.html">Salinas Contreras Nelly</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadSBG.html">Sánchez Blanquel Guadalupe</option>
+                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadSOY.html">Sepúlveda Oviedo Yolanda</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadSGLG.html">Solís Godínez Laura Guadalupe</option>
-                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadTSA.html">Tejeda Santarosa Azucena</option>
-                    <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadVEMG.html">Vertíz Estrada María Graciela</option>
                     <option value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadVCAR.html">Villalobos Chavira Anel Ruth</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadACSR.html">Alemán Contreras Susan Rachel</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadCRF.html">Cortes Romero Fernando</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadDGC.html">Delgado García Claudia</option>
-                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadEEE.html">Espinosa Estrada Elisa</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadGSPI.html">Garfias Sebastián Perla Ivonne</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadHAKJ.html">Huerta Arroyo Karina Jazmín</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadJVGC.html">Jiménez Velázquez Guadalupe Citlali</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadJSJ.html">Juárez Salazar Jeimy</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadLGML.html">Lazcano Galindo María Laura</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadMGCO.html">Murillo Guzmán César Octavio</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadRCM.html">Rillo Carbajal Miriam</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadSHE.html">Salcedo Hernández Elizabeth</option>
-                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadSOY.html">Sepúlveda Oviedo Yolanda</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadTSA.html">Tejeda Santarosa Azucena</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Calidad del Servicio\IndividualCalidadVGVH.html">Vela Guisado Víctor Hugo</option>
                   </select>
             </form>
@@ -250,7 +256,10 @@
   <script src="..\..\..\JS\promedios.js"></script>
   <script src="..\..\..\JS\index.js"></script>
   <script src="..\..\..\JS\Canvas\Individual\Calidad del Servicio\2018\CalidadVEMG2018.js"></script>
+  <script src="..\..\..\JS\Canvas\Polar\Calidad del Servicio\2018\CalidadVEMG2018.js"></script>
 
+
+  <div id="ultimo"></div>
 </body>
 
 
