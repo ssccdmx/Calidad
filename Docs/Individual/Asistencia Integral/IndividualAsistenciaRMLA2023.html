@@ -10,6 +10,11 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
     
+    <style>
+      #ultimo + div{
+        visibility: hidden;
+      }
+    </style>
 </head>
   
 <body>
@@ -116,20 +121,22 @@
                 <label for="lang"></label>
                   <select name="Nombre" id="Nombre" onchange="location=this.value">
                     <option style="color:gainsboro;" value="Default">--Regalado Maltos Lilia Alejandra--</option>
-                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaARD.html">Alarcón Ramos Daniel</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaAOD.html">Aguilar Ortega Diana</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaCSM.html">Cárdenas Salazar Mercedes</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaCEP.html">Chávez Espinosa Paulina</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaCHWL.html">Cruz Hernández Wendy Lucero</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaCOJY.html">Cruz Ortiz Julia Yessenia</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaDSEE.html">Domínguez Sánchez Edith Eveneth</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaEJA.html">Estrada Jiménez Andrés</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaFGE.html">Fernández García Elena</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaFYG.html">Fernández Yépez Guillermo</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaFHV.html">Flores Huitrón Verónica</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaFOG.html">Flores Ortega Guadalupe</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaGGAO.html">García García Armando Omar</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaGGE.html">Garduño García Elizabeth</option>
-                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaGPMP.html">Guevara del Prado Martha Patricia</option>
-                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaGCM.html">Gutiérrez Cabrera Maricruz</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaHNJA.html">Hernández Nava Joan Alberto</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaJVGC.html">Jiménez Velázquez Guadalupe Citlali</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaLVJ.html">Lemus Vázquez Jessica</option>
-                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaLMFD.html">Luna Macedo Francisco Daniel</option>
-                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaMMMI.html">Malvaez Moreno María Isabel</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaMTMC.html">Matías Téllez María del Carmen</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaMMME.html">Miranda Martin María Eugenia</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaMMAK.html">Montalvo Muro Ana Karen</option>
@@ -139,6 +146,7 @@
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaOZKG.html">Olivares Zamudio Karina Guadalupe</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaOMMC.html">Ortiz Martínez María del Carmen</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaPMDI.html">Palacios Martínez Denisse Isabel</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaPAL.html">Pardo Arcos Lilia</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaPPEN.html">Pedroza Peral Elvia Noemí</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaPCC.html">Perea Cruz Columba</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaPRR.html">Pérez Del Rosario Rosenda</option>
@@ -150,9 +158,14 @@
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaRMI.html">Romero Martínez Israel</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaTHS.html">Téllez Hernández Susana</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaSBHA.html">Salgado Bussey Hugo Arturo</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaSND.html">Sánchez Nájera Daniel</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaVBE.html">Vargas Barrera Esmeralda</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaARD.html">Alarcón Ramos Daniel</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaCMJ.html">Cándido Moreno Juana</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaGCM.html">Gutiérrez Cabrera Maricruz</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaJRSA.html">Jáuregui Rodríguez Silvia Andrea</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaLMFD.html">Luna Macedo Francisco Daniel</option>
+                    <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaMMMI.html">Malvaez Moreno María Isabel</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaMCMS.html">Martínez del Campo Marín Silvia</option>
                     <option style="color:gainsboro;" value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaVFV.html">Valadez Flores Viridiana</option>
                   </select>
@@ -166,6 +179,8 @@
                   <select name="Año" id="Año" onchange="location=this.value">
                     <option style="color:gainsboro;" value="Default">--2023--</option>
                     <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaRMLA2023.html">2023</option>
+                    <option value="..\..\..\Docs\Individual\Asistencia Integral\IndividualAsistenciaRMLA2024.html">2024</option>
+
                   </select>
             </form>
           </div>
@@ -251,8 +266,9 @@
   <script src="..\..\..\JS\promedios.js"></script>
   <script src="..\..\..\JS\index.js"></script>
   <script src="..\..\..\JS\Canvas\Individual\Asistencia Integral\2023\AsistenciaRMLA2023.js"></script>
-  <script src="..\..\..\JS\Canvas\Polar\Asistencia Integral\AsistenciaRMLA2023.js"></script>
+  <script src="..\..\..\JS\Canvas\Polar\Asistencia Integral\2023\AsistenciaRMLA2023.js"></script>
 
+  <div id="ultimo"></div>
 </body>
 
 
