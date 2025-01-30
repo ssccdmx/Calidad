@@ -8,7 +8,8 @@ var data1 = {
       highlightFill: "rgba(151,187,205,0.75)",
       highlightStroke: "rgba(151,187,205,1)",
 
-      data: [7.5,6.5]
+      data: [7.5,6.5,7.7,7.3,7.4,6.5,6.5]
+
 
 
 
@@ -29,8 +30,7 @@ var data2 = {
       highlightFill: "rgba(220,220,220,0.75)",
       highlightStroke: "rgba(220,220,220,1)",
 
-      data: [275,174]
-
+      data: [275,174,206,150,183,77,85]
 
 
 
