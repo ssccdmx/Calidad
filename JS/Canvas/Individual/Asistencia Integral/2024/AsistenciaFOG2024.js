@@ -7,8 +7,7 @@ var data1 = {
       strokeColor: "rgba(151,187,205,0.8)",
       highlightFill: "rgba(151,187,205,0.75)",
       highlightStroke: "rgba(151,187,205,1)",
-      data: [9.3,9.1]
-
+      data: [9.3,9.1,9.3,9.4,9.0,9.1,8.2]
 
 
     }
@@ -27,7 +26,7 @@ var data2 = {
       strokeColor: "rgba(220,220,220,0.8)",
       highlightFill: "rgba(220,220,220,0.75)",
       highlightStroke: "rgba(220,220,220,1)",
-      data: [78,56]
+      data: [78,56,53,61,2,35,25]
 
 
 
